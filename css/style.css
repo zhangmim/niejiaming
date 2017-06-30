@@ -1,4 +1,4 @@
-/*ҳ���ʼ��*/
+/*Ò³Ãæ³õÊ¼»¯*/
 
 *{
     padding: 0;
@@ -337,13 +337,13 @@ h1{
 
 .page-5 .grjn>div:first-child{
     position: absolute;
-    top:3rem;
+    top:35%;
     left: 0.45rem;
 }
 
 .page-5 .grjn>div:nth-child(2){
     position: absolute;
-    top: 3rem;
+    top: 35%;
     right: 0.45rem;
 }
 
@@ -359,12 +359,12 @@ h1{
 
 .page-5 .grjn>div:nth-child(4){
     position: absolute;
-    bottom: 3.8rem;
+    top:55%;
     right: 0.4rem;
 }
 .page-5 .grjn>div:nth-child(5){
     position: absolute;
-    bottom: 3.8rem;
+     top:55%;
     left: 0.46rem;
 }
 
