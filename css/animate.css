@@ -1,0 +1,111 @@
+.animation{
+    transition:all 0.5s linear;
+}
+.xiantop{
+     animation-name:xiantop;
+ }
+@keyframes xiantop {
+    0%{transform:rotate(45deg) translateY(0px);}
+    100%{transform: rotate(45deg) translateY(9.5rem);}
+}
+
+.xianbottom{
+    animation-name: xianbottom ;
+}
+@keyframes xianbottom {
+    0%{transform:rotate(45deg) translateY(0px);}
+    100%{transform: rotate(45deg) translateY(-3.2rem);}
+}
+
+.page1move{
+    animation-name: page1move;
+}
+@keyframes page1move {
+    0%{transform:scale(0);}
+    100%{transform:scale(1);}
+}
+
+
+.jtmove{
+    animation: jtmove 1.5s linear infinite;
+}
+@keyframes jtmove {
+    0%{transform:translateY(0);opacity: 1}
+    100%{transform:translateY(-0.5rem); opacity: 0}
+}
+
+
+.xuanzhuan{
+    animation-name: xuanzhuan;
+}
+@keyframes xuanzhuan {
+    0%{transform: translateX(-2rem) rotate(0deg);}
+    100%{transform: translateX(0rem) rotate(360deg);}
+}
+
+.page2move{
+    animation-name: page2move;
+}
+@keyframes page2move {
+    0%{transform: translateX(3rem);opacity: 0;}
+    100%{transform: translateX(0rem); opacity: 1;}
+}
+
+.page2xian{
+    animation-name: page2xian;
+}
+@keyframes page2xian {
+    0%{transform: translateY(2rem);}
+
+    50%{transform: translateY(-3rem);}
+    100%{transform: translateX(0rem);}
+}
+
+.pic2move{
+    animation-name: pic2move;
+}
+@keyframes pic2move {
+    0%{transform: translateX(-6rem) rotate(-90deg) ;}
+    100%{transform: translateX(0rem)rotate(0deg);}
+}
+
+.pic3move{
+    animation-name: pic3move;
+}
+@keyframes pic3move {
+    0%{transform: translateY(-1rem);}
+    100%{transform: translateY(0rem);}
+}
+
+.pic4move{
+    animation-name: pic4move;
+}
+@keyframes pic4move {
+    0%{transform: translateX(1rem);}
+    100%{transform: translateX(0rem);}
+}
+
+.pic7move{
+    animation-name: pic7move;
+}
+@keyframes pic7move {
+    0%{transform: translateY(1rem);}
+    100%{transform: translateY(0rem);}
+}
+
+.page3-move{
+    animation-name: page3-move;
+}
+@keyframes page3-move {
+    0%{transform: translateX(1rem);}
+    100%{transform: translateX(0rem);}
+}
+
+.rotateMusic{
+    animation: rotateMusic 2s linear infinite;
+}
+
+@keyframes rotateMusic {
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(360deg)}
+}
